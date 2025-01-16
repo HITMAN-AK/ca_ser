@@ -98,7 +98,7 @@ CHANNEL_LAYERS = {
         'BACKEND': 'channels_redis.core.RedisChannelLayer',
         'CONFIG': {
             'hosts': [
-                ('rediss://red-cu4b9kjqf0us73fv5c2g:xU3HgIIFcJvOTwD27I2iKFMmJDwztgpE@singapore-redis.render.com:6379'),  
+                ('redis://red-cu4b9kjqf0us73fv5c2g:6379'),  
             ],
         },
     },
