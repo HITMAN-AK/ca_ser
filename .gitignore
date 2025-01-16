@@ -1,0 +1,38 @@
+# Python related
+*.pyc
+*.pyo
+__pycache__/
+*.pyd
+.Python
+
+# Virtual environments
+venv/
+env/
+.env/
+
+# Django specific
+/db.sqlite3
+*.log
+*.pot
+*.pyc
+*.pyo
+*.pyd
+*.db  # If you are using other database files like MongoDB, there might not be specific database files to ignore
+
+# Environment variables
+.env
+.env.*
+
+# Media and Static files
+/static/
+/media/
+
+# IDE/Editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker-related
+.docker/
+docker-compose.override.yml
