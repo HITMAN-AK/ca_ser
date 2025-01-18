@@ -56,7 +56,11 @@ MIDDLEWARE = [
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',  'http://127.0.0.1:3000','https://cabackend-uvxk.onrender.com','http://192.168.0.109:3000','https://chatapplication-tau.vercel.app'
 ]
+CORS_ALLOW_METHODS = ['GET', 'POST', 'PUT', 'DELETE', 'OPTIONS']
 CORS_ALLOW_CREDENTIALS = True
+SECURE_PROXY_SSL_HEADER = ('HTTP_X_FORWARDED_PROTO', 'https')
+SECURE_SSL_REDIRECT = True
+CORS_ALLOW_ALL_ORIGINS = True
 ROOT_URLCONF = 'ca_django.urls'
 
 TEMPLATES = [
