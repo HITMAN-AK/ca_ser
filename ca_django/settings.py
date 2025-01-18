@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-gjs$ze-gvc_b*%a#!yf_y)aooetpg*hdlex=3ns!g$(l0l-doz
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['127.0.0.1', 'localhost','cabackend-uvxk.onrender.com','192.168.0.109']
+ALLOWED_HOSTS = ['127.0.0.1', 'localhost','cabackend-uvxk.onrender.com','192.168.0.109','chatapplication-tau.vercel.app']
 
 
 # Application definition
@@ -54,7 +54,7 @@ MIDDLEWARE = [
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
 ]
 CORS_ALLOWED_ORIGINS = [
-    'http://localhost:3000',  'http://127.0.0.1:3000','https://cabackend-uvxk.onrender.com','http://192.168.0.109:3000'
+    'http://localhost:3000',  'http://127.0.0.1:3000','https://cabackend-uvxk.onrender.com','http://192.168.0.109:3000','https://chatapplication-tau.vercel.app'
 ]
 CORS_ALLOW_CREDENTIALS = True
 ROOT_URLCONF = 'ca_django.urls'
